@@ -7,7 +7,7 @@ module.exports = (sequelize, DataType) => {
     }
   }, {
     timestamps: false,
-    freezeTableName: true,
+    freezeTableName: true
   });
   comprenden.associate = (models) => {
     comprenden.belongsTo(models.contratos);

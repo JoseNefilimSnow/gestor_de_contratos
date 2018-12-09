@@ -28,9 +28,7 @@ module.exports = (sequelize, DataType) => {
     contratos.belongsTo(models.empresas, {
       foreignkey: 'id_empresa'
     });
-    contratos.belongsToMany(models.servicios, {
-      through: 'comprenden'
-    });
+    contratos.hasMany(models.comprenden);
   };
   return contratos;
 };

@@ -24,9 +24,49 @@ module.exports = app => {
         status: 'received'
       });
     });
-  app.route('/contratos/:id')
+  app.route('/contratos/getById/:id')
     .get((req, res) => {
       contratos.findOne({
+          where: req.params
+        })
+        .then(result => res.json(result))
+        .catch(error => {
+          res.status(412).json({
+            msg: error.message
+          });
+        });
+    })
+    .put((req, res) => {
+      contratos.update(req.body, {
+          where: req.params
+        })
+        .then(result => res.sendStatus(204))
+        .catch(error => {
+          res.status(412).json({
+            msg: error.message
+          });
+        });
+      res.json({
+        status: 'received'
+      });
+    })
+    .delete((req, res) => {
+      contratos.destroy({
+          where: req.params
+        })
+        .then(result => res.sendStatus(204))
+        .catch(error => {
+          res.status(412).json({
+            msg: error.message
+          });
+        });
+      res.json({
+        status: 'received'
+      });
+    });
+  app.route('/contratos/getByIdEmpresa/:empresaId')
+    .get((req, res) => {
+      contratos.findAll({
           where: req.params
         })
         .then(result => res.json(result))

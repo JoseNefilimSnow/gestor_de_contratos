@@ -22,9 +22,7 @@ module.exports = (sequelize, DataType) => {
   });
   servicios.associate = (models) => {
     servicios.belongsTo(models.categorias);
-    servicios.belongsToMany(models.contratos, {
-      through: 'comprenden'
-    });
+    servicios.hasMany(models.comprenden);
   };
   return servicios;
 };

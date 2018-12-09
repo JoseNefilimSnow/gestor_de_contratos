@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">gestorDeContratos</string>
+    <string name="nombre_de_la_empresa">Nombre de la Empresa:</string>
+    <string name="empresa">Empresa</string>
+    <string name="tipo">Tipo:</string>
+    <string name="fecha_de_inicio">Fecha de Inicio:</string>
+    <string name="tipo2">Tipo</string>
+    <string name="fecha_de_fin">Fecha de Fin:</string>
+    <string name="a_o_mes_d_a">Año-Mes-Día</string>
+    <string name="a_o_mes_d_a2">Año-Mes-Día</string>
 </resources>
