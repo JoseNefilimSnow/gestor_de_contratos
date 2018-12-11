@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">gestorDeContratos</string>
+    <string name="app_name">Gestor de Contratos</string>
     <string name="nombre_de_la_empresa">Nombre de la Empresa:</string>
     <string name="empresa">Empresa</string>
     <string name="tipo">Tipo:</string>
@@ -8,4 +8,6 @@
     <string name="fecha_de_fin">Fecha de Fin:</string>
     <string name="a_o_mes_d_a">Año-Mes-Día</string>
     <string name="a_o_mes_d_a2">Año-Mes-Día</string>
+    <string name="error_required_field">El campo no puede estar vacio</string>
+    <string name="error_wrong_format">El campo no tiene el formato correcto</string>
 </resources>

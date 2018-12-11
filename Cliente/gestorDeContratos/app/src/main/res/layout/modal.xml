@@ -1,20 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent" android:layout_height="match_parent">
+                android:layout_width="match_parent" android:layout_height="match_parent" android:visibility="visible">
+    <Button
+            android:text="Cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+            android:id="@+id/cerrarCrearContrato"
+            android:layout_marginBottom="43dp" android:layout_alignParentStart="true" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp" android:layout_alignParentLeft="true"
+            android:background="@android:color/holo_red_dark" android:textColor="@android:color/background_light"/>
+    <Button
+            android:text="Continuar"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/continuar" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="41dp" android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="31dp" android:layout_marginEnd="31dp"
+            android:textColor="@android:color/background_light"
+            android:background="@android:color/holo_green_dark" android:layout_toEndOf="@+id/cerrarCrearContrato"
+            android:layout_toRightOf="@+id/cerrarCrearContrato" android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"/>
     <TextView
             android:text="@string/nombre_de_la_empresa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_alignParentStart="true"
-            android:layout_marginStart="30dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
-            android:id="@+id/textView" android:layout_marginTop="45dp" android:layout_marginLeft="30dp"
-            android:visibility="visible" android:textColor="@android:color/background_dark"/>
+            android:layout_marginStart="46dp" android:layout_alignParentLeft="true"
+            android:id="@+id/textView5" android:layout_marginLeft="46dp"
+            android:textColor="@android:color/background_dark" android:visibility="visible" android:textSize="18sp"
+            android:layout_marginTop="45dp" android:layout_alignParentTop="true"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:ems="10"
-            android:id="@+id/nombreEmpresa"
-            android:layout_alignStart="@+id/textView" android:layout_marginStart="2dp"
-            android:layout_marginTop="17dp" android:layout_below="@+id/textView" android:hint="Empresa"
-            android:importantForAutofill="no"/>
+            android:id="@+id/nombreEmpresa" android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView5"
+            android:hint="@string/empresa" android:layout_alignStart="@+id/tipoContrato"/>
+    <TextView
+            android:text="@string/tipo"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content" android:id="@+id/textView6"
+            android:textColor="@android:color/background_dark" android:textSize="18sp"
+            android:layout_marginStart="48dp" android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="254dp" android:layout_marginEnd="254dp"
+            android:layout_alignParentStart="true" android:layout_marginLeft="48dp"
+            android:layout_alignParentLeft="true" android:layout_marginTop="13dp"
+            android:layout_below="@+id/nombreEmpresa"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/tipoContrato" android:layout_marginTop="1dp"
+            android:layout_below="@+id/textView6" android:hint="@string/tipo" android:inputType="text"
+            android:layout_alignStart="@+id/textView6" android:layout_marginStart="0dp"/>
+    <TextView
+            android:text="@string/fecha_de_inicio"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content" android:id="@+id/textView7"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="121dp" android:layout_marginEnd="121dp"
+            android:layout_alignParentStart="true" android:layout_marginLeft="47dp" android:layout_marginStart="47dp"
+            android:layout_alignParentLeft="true" android:textColor="@android:color/background_dark"
+            android:textSize="18sp" android:layout_below="@+id/tipoContrato"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/fecha_inicio" android:layout_marginTop="3dp" android:layout_below="@+id/textView7"
+            android:hint="Dia/Mes/Año"
+            android:textColor="@android:color/background_dark" android:layout_alignStart="@+id/nombreEmpresa"
+            android:layout_marginStart="-1dp"/>
+    <TextView
+            android:text="@string/fecha_de_fin"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content" android:id="@+id/textView8"
+            android:layout_marginTop="12dp" android:layout_marginStart="46dp"
+            android:layout_alignParentStart="true" android:layout_marginLeft="46dp"
+            android:layout_alignParentLeft="true" android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="127dp" android:layout_marginEnd="127dp"
+            android:textSize="18sp" android:textColor="@android:color/background_dark"
+            android:layout_below="@+id/fecha_inicio"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/fecha_fin" android:layout_marginTop="0dp"
+            android:layout_below="@+id/textView8"
+            android:hint="Dia/Mes/Año" android:layout_alignStart="@+id/textView8"/>
 </RelativeLayout>
