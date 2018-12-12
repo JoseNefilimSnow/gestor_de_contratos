@@ -6,8 +6,10 @@
     <string name="fecha_de_inicio">Fecha de Inicio:</string>
     <string name="tipo2">Tipo</string>
     <string name="fecha_de_fin">Fecha de Fin:</string>
-    <string name="a_o_mes_d_a">Año-Mes-Día</string>
-    <string name="a_o_mes_d_a2">Año-Mes-Día</string>
     <string name="error_required_field">El campo no puede estar vacio</string>
     <string name="error_wrong_format">El campo no tiene el formato correcto</string>
+    <string name="dia_mes_a_o">Dia/Mes/Año</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="continuar">Continuar</string>
+    <string name="dia_mes_a_o2">Dia/Mes/Año</string>
 </resources>

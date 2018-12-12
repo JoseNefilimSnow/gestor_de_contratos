@@ -59,7 +59,7 @@
             android:layout_alignEnd="@+id/editText"
             android:id="@+id/fecha_inicio"
             android:layout_marginTop="7dp" android:layout_below="@+id/textView3"
-            android:layout_marginEnd="37dp" android:hint="Dia/Mes/Año" android:importantForAutofill="no"
+            android:layout_marginEnd="37dp" android:hint="@string/dia_mes_a_o" android:importantForAutofill="no"
             android:visibility="visible"/>
     <EditText
             android:layout_width="wrap_content"
@@ -68,18 +68,18 @@
             android:ems="10"
             android:id="@+id/fecha_fin"
             android:layout_marginTop="5dp" android:layout_below="@+id/textView4"
-            android:hint="Dia/Mes/Año" android:autofillHints=""
+            android:hint="@string/dia_mes_a_o" android:autofillHints=""
             android:visibility="visible" android:layout_alignParentStart="true" android:layout_marginLeft="31dp"
             android:layout_marginStart="31dp" android:layout_alignParentLeft="true"/>
     <Button
-            android:text="Cerrar"
+            android:text="@string/cerrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:id="@+id/cerrarCrearContrato"
             android:layout_marginBottom="43dp" android:layout_alignParentStart="true" android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp" android:layout_alignParentLeft="true"
             android:background="@android:color/holo_red_dark" android:textColor="@android:color/background_light"/>
     <Button
-            android:text="Continuar"
+            android:text="@string/continuar"
             android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:id="@+id/continuar" android:layout_alignParentBottom="true" android:layout_marginStart="94dp"
