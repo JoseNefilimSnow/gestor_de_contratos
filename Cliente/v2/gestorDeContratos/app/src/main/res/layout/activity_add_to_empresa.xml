@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddToEmpresa">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/colorPrimary">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView
+                        android:text="Empresa:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10"
+                        android:textSize="18sp" android:textColor="@color/colorPrimaryDark"/>
+                <TextView
+                        android:text=""
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nombreEmpresaTag"
+                />
+                <TextView
+                        android:text="Tipo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6"
+                        android:textSize="18sp" android:textColor="@color/colorPrimaryDark"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:background="@null"
+                        android:id="@+id/tipoContrato"
+                        android:hint="Tipo"
+                        android:textSize="24sp"/>
+                <TextView
+                        android:text="Fecha de Inicio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null" android:textSize="18sp" android:textColor="@color/colorPrimaryDark"/>/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:background="@null"
+                        android:id="@+id/fecha_inicio"
+                        android:hint="Dia/Mes/Año"
+                        android:textSize="24sp"/>
+                <TextView
+                        android:text="Fecha de Fin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null" android:textSize="18sp" android:textColor="@color/colorPrimaryDark"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:background="@null"
+                        android:hint="Dia/Mes/Año"
+                        android:id="@+id/fecha_fin"
+                        android:textSize="24sp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <Button
+                android:text="Continuar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:id="@+id/continuar"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/holo_green_dark"
+                android:onClick="addFunc"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

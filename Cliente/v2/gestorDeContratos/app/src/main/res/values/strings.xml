@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gestor de Contratos</string>
+    <string name="error_required_field">El campo no puede estar vacio</string>
+    <string name="error_wrong_format">El campo no tiene el formato correcto</string>
+    <string name="dia_mes_a_o">Dia/Mes/Año</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="continuar">Continuar</string>
+    <string name="dia_mes_a_o2">Dia/Mes/Año</string>
+    <string name="nombre_empresa">Nombre Empresa</string>
+    <string name="telefono">telefono</string>
+    <string name="dirección">direccion</string>
+    <string name="correo">correo</string>
+    <string name="contrato">Numero contrato</string>
+    <string name="tipo">tipo</string>
+    <string name="fechaIni">Fecha Inicio</string>
+    <string name="fechaFin">Fecha Fin</string>
+</resources>
