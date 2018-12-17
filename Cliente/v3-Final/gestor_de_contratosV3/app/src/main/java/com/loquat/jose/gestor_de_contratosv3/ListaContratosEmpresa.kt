@@ -56,9 +56,9 @@ class ListaContratosEmpresa : AppCompatActivity() {
                 val fecha_inicio = cursor.getString(cursor.getColumnIndex("fecha_inicio"))
                 val fecha_fin = cursor.getString(cursor.getColumnIndex("fecha_fin"))
                 val empresaId = cursor.getInt(cursor.getColumnIndex("empresaId"))
-
-
-                listContratos.add(Contrato(id, tipo, fecha_inicio,fecha_fin,empresaId))
+                if(id_empresa==empresaId) {
+                    listContratos.add(Contrato(id, tipo, fecha_inicio, fecha_fin, empresaId))
+                }
             } while (cursor.moveToNext())
         }
         var myContratoAdapter = MyContratoAdapter(this, listContratos)
@@ -131,7 +131,7 @@ class ListaContratosEmpresa : AppCompatActivity() {
 
                 //Delete en base de datos
                 //Cambiar url cada vez
-                var url = "http://192.168.1.35:8696/contratos/getById/"+myContrato.id
+                var url = "http://192.168.202.95:8696/contratos/getById/"+myContrato.id
 
                 val queue2 = Volley.newRequestQueue(context)
                 val req = JsonObjectRequest(

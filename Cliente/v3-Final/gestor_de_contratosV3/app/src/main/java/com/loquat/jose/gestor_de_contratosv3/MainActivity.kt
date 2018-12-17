@@ -31,8 +31,41 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Load from DB
+        //Cargar db local
         LoadQuery("%")
+
+        //Cargar db-servidor
+
+        var url = "http://192.168.202.95:8696/empresas"
+        val queue = Volley.newRequestQueue(this)
+        val req = JsonArrayRequest(
+            Request.Method.GET, url, null,
+            Response.Listener { response ->
+                try {
+                    // Loop through the array elements
+                    for (i in 0 until response.length()) {
+                        var values = ContentValues()
+                        val aux = response.getJSONObject(i)
+                        values.put("id", aux.getInt("id"))
+                        values.put("nombre", aux.getString("nombre"))
+                        values.put("direccion", aux.getString("direccion"))
+                        values.put("telefono", aux.getString("telefono"))
+                        values.put("correo", aux.getString("correo"))
+
+                        var dbManager = DbManager(this)
+                        dbManager.insertEmpresas(values)
+                        onResume()
+                    }
+                } catch (e: JSONException) {
+                    e.printStackTrace()
+                }
+            },
+            Response.ErrorListener { error: VolleyError ->
+                Toast.makeText(this, "No conectado a Internet", Toast.LENGTH_SHORT).show()
+            }
+        )
+        queue.add(req)
+
     }
 
     override fun onResume() {
@@ -96,7 +129,7 @@ class MainActivity : AppCompatActivity() {
         if (item != null) {
             when (item.itemId) {
                 R.id.sync -> {
-                    var url = "http://192.168.1.35:8696/empresas"
+                    var url = "http://192.168.202.95:8696/empresas"
                     val queue1 = Volley.newRequestQueue(this)
                     val req = JsonArrayRequest(
                         Request.Method.GET, url, null,
@@ -125,10 +158,10 @@ class MainActivity : AppCompatActivity() {
                     )
                     queue1.add(req)
                     Toast.makeText(this, "Empresas borradas y sincronizado", Toast.LENGTH_SHORT).show()
-
+                    onResume()
                 }
                 R.id.action_settings -> {
-                    Toast.makeText(this, "Configuraciones WIP", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Configuraciones por añadir", Toast.LENGTH_SHORT).show()
                 }
             }
         }

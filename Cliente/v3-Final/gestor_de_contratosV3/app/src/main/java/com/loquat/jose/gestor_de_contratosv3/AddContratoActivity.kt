@@ -58,7 +58,7 @@ class AddContratoActivity : AppCompatActivity() {
                     objJson.put("empresaId", id_empresa)
 
                     //Cambiar url cada vez
-                    var url = "http://192.168.1.35:8696/contratos"
+                    var url = "http://192.168.202.95:8696/contratos"
 
                     val queue = Volley.newRequestQueue(this)
                     val req = JsonObjectRequest(
@@ -78,11 +78,34 @@ class AddContratoActivity : AppCompatActivity() {
                     Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
                 }
             } else {
+
                 var selectionArgs = arrayOf(id.toString())
                 //Update aun no en linea
                 val ID = dbManager.updateContratos(values, "id=?", selectionArgs)
+                //Update en linea
+                var url = "http://192.168.202.95:8696/contratos/getById/"+id
+
+                var objJson = JSONObject()
+                objJson.put("id",id)
+                objJson.put("tipo", tipoEt.text.toString())
+                objJson.put("fecha_inicio", fechaIniEt.text.toString())
+                objJson.put("fecha_fin", fechaFinEt.text.toString())
+                objJson.put("empresaId", id_empresa)
+                val queueUpdate = Volley.newRequestQueue(this)
+                val req = JsonObjectRequest(
+                    Request.Method.PUT, url, objJson,
+                    Response.Listener { response ->
+                        Toast.makeText(this, "Editar Exitoso", Toast.LENGTH_SHORT).show()
+                    },
+                    Response.ErrorListener { error: VolleyError ->
+                        println("Error $error.message")
+                    }
+                )
+                queueUpdate.add(req)
                 if (ID > 0) {
                     Toast.makeText(this, "Contrato editado", Toast.LENGTH_SHORT).show()
+
+
                     finish()
                 } else {
                     Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
