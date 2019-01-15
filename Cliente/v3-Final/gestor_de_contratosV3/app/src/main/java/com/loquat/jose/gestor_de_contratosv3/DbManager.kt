@@ -178,6 +178,9 @@ class DbManager {
         val count = sqlDB!!.delete(TABLE_EMPRESAS, selection, selectionArgs)
         return count
     }
+    fun deleteAllEmpresas(){
+        sqlDB!!.execSQL("delete from "+ TABLE_EMPRESAS);
+    }
     fun deleteContratos(selection: String, selectionArgs: Array<String>): Int {
         val count = sqlDB!!.delete(TABLE_CONTRATOS, selection, selectionArgs)
         return count

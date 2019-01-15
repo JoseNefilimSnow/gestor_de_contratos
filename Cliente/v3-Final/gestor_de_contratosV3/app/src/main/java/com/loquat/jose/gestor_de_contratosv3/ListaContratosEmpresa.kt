@@ -131,7 +131,7 @@ class ListaContratosEmpresa : AppCompatActivity() {
 
                 //Delete en base de datos
                 //Cambiar url cada vez
-                var url = "http://192.168.202.95:8696/contratos/getById/"+myContrato.id
+                var url = "http://192.168.201.91:8696/contratos/getById/"+myContrato.id
 
                 val queue2 = Volley.newRequestQueue(context)
                 val req = JsonObjectRequest(

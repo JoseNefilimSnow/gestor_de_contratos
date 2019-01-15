@@ -58,7 +58,7 @@ class AddContratoActivity : AppCompatActivity() {
                     objJson.put("empresaId", id_empresa)
 
                     //Cambiar url cada vez
-                    var url = "http://192.168.202.95:8696/contratos"
+                    var url = "http://192.168.201.91:8696/contratos"
 
                     val queue = Volley.newRequestQueue(this)
                     val req = JsonObjectRequest(
@@ -83,7 +83,7 @@ class AddContratoActivity : AppCompatActivity() {
                 //Update aun no en linea
                 val ID = dbManager.updateContratos(values, "id=?", selectionArgs)
                 //Update en linea
-                var url = "http://192.168.202.95:8696/contratos/getById/"+id
+                var url = "http://192.168.201.91:8696/contratos/getById/"+id
 
                 var objJson = JSONObject()
                 objJson.put("id",id)
