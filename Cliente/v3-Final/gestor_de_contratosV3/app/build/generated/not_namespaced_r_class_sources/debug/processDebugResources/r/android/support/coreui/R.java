@@ -39,8 +39,8 @@ public final class R {
 
         public static final int notification_action_color_filter = 0x7f040045;
         public static final int notification_icon_bg_color = 0x7f040046;
-        public static final int ripple_material_light = 0x7f040050;
-        public static final int secondary_text_default_material_light = 0x7f040052;
+        public static final int ripple_material_light = 0x7f040051;
+        public static final int secondary_text_default_material_light = 0x7f040053;
     }
     public static final class dimen {
         private dimen() {}
@@ -146,14 +146,14 @@ public final class R {
     public static final class style {
         private style() {}
 
-        public static final int TextAppearance_Compat_Notification = 0x7f0d00f0;
-        public static final int TextAppearance_Compat_Notification_Info = 0x7f0d00f1;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d00f2;
-        public static final int TextAppearance_Compat_Notification_Time = 0x7f0d00f3;
-        public static final int TextAppearance_Compat_Notification_Title = 0x7f0d00f4;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f0d015c;
-        public static final int Widget_Compat_NotificationActionText = 0x7f0d015d;
-        public static final int Widget_Support_CoordinatorLayout = 0x7f0d015e;
+        public static final int TextAppearance_Compat_Notification = 0x7f0d00f1;
+        public static final int TextAppearance_Compat_Notification_Info = 0x7f0d00f2;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d00f3;
+        public static final int TextAppearance_Compat_Notification_Time = 0x7f0d00f4;
+        public static final int TextAppearance_Compat_Notification_Title = 0x7f0d00f5;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f0d015d;
+        public static final int Widget_Compat_NotificationActionText = 0x7f0d015e;
+        public static final int Widget_Support_CoordinatorLayout = 0x7f0d015f;
     }
     public static final class styleable {
         private styleable() {}

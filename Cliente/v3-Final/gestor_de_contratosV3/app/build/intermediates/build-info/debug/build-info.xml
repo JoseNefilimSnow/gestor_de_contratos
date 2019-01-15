@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1545027546417"
+    timestamp="1545066966456"
     token="-9075072604695033491"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,10 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="88" />
+        duration="62" />
     <task
         name="verifier"
-        duration="40" />
+        duration="17" />
 
     <artifact
         location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -54,15 +54,15 @@
         location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1545027546417"
+        timestamp="1545066966456"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -95,10 +95,10 @@
             location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
     </build>
 

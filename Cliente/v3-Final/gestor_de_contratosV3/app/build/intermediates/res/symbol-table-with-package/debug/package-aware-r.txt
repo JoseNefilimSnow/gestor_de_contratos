@@ -426,6 +426,7 @@ color material_grey_850
 color material_grey_900
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1103,6 +1104,7 @@ style Base_Widget_AppCompat_Toolbar_Button_Navigation
 style CardView
 style CardView_Dark
 style CardView_Light
+style MyActionBar
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

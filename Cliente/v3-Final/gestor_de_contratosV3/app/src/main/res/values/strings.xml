@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gestor de Contratos</string>
+    <string name="error_required_field">No puede estar vacio</string>
+    <string name="error_wrong_format">Formato no correcto</string>
+</resources>
