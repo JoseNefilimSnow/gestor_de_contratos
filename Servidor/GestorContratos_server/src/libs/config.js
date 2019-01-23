@@ -1,5 +1,5 @@
 module.exports = {
-  database: 'subcontrata',
+  database: 'asesoria',
   username: 'admin',
   password: '',
   params: {

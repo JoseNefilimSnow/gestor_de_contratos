@@ -13,7 +13,7 @@ class DbManager {
     /**
      * Aqui se define la base de datos SQLITE
      */
-    val dbName = "subcontrataSQLITE"
+    val dbName = "asesoriaSQLITE"
     //Tabla empresa
     val TABLE_EMPRESAS = "empresas"
     val COL_EMP_ID = "id"

@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".AddContratoActivity">
+        tools:context=".AddEmpresa">
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,9 +27,9 @@
             >
                 <EditText
                         android:layout_width="match_parent"
-                        android:id="@+id/tipoEt"
+                        android:id="@+id/nombreEt"
                         android:background="@null"
-                        android:hint="Introduce un tipo de Contrato"
+                        android:hint="Nombre de la Empresa"
                         android:inputType="text"
                         android:singleLine="true"
                         android:padding="10dp"
@@ -38,9 +38,9 @@
                 />
                 <EditText
                         android:layout_width="match_parent"
-                        android:id="@+id/fechaIniEt"
+                        android:id="@+id/dirEt"
                         android:background="@null"
-                        android:hint="Fecha de inicio (aaaa-mm-dd)"
+                        android:hint="Direccion de la Empresa"
                         android:inputType="text"
                         android:singleLine="true"
                         android:padding="10dp"
@@ -49,17 +49,26 @@
                 />
                 <EditText
                         android:layout_width="match_parent"
-                        android:id="@+id/fechaFinEt"
+                        android:id="@+id/telEt"
                         android:background="@null"
-                        android:hint="Fecha de fin (aaaa-mm-dd)"
+                        android:hint="Telefono de la Empresa"
                         android:inputType="text"
                         android:singleLine="true"
                         android:padding="10dp"
                         android:textStyle="bold"
                         android:layout_height="wrap_content"
                 />
-
-
+                <EditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/correoEt"
+                        android:background="@null"
+                        android:hint="Correo de la Empresa"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
@@ -71,7 +80,7 @@
                     android:layout_weight="1"
                     android:layout_marginStart="5dp"
                     android:layout_marginLeft="5dp"
-                    android:layout_width="125dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@android:color/holo_red_dark"
                     android:onClick="closeTab"
