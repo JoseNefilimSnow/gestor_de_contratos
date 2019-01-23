@@ -18,10 +18,14 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.JsonArrayRequest
+import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.loquat.jose.gestor_de_contratosv3.R.id.sync
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.rowempresa.view.*
+import org.json.JSONArray
 import org.json.JSONException
+import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,50 +34,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        //Cargar db local
         LoadQuery("%")
-
-        //Cargar db-servidor
-
-        var url = "http://192.168.202.98:8696/empresas"
-
-        val queue = Volley.newRequestQueue(this)
-
-        val req = JsonArrayRequest(
-            Request.Method.GET, url, null,
-            Response.Listener { response ->
-                try {
-                    // Loop de array
-                    for (i in 0 until response.length()) {
-                        var values = ContentValues()
-                        val aux = response.getJSONObject(i)
-                        values.put("id", aux.getInt("id"))
-                        values.put("nombre", aux.getString("nombre"))
-                        values.put("direccion", aux.getString("direccion"))
-                        values.put("telefono", aux.getString("telefono"))
-                        values.put("correo", aux.getString("correo"))
-
-                        var dbManager = DbManager(this)
-                        dbManager.insertEmpresas(values)
-                        onResume()
-                    }
-                } catch (e: JSONException) {
-                    e.printStackTrace()
-                }
-            },
-            Response.ErrorListener { error: VolleyError ->
-                Toast.makeText(this, "No conectado a Internet", Toast.LENGTH_SHORT).show()
-            }
-        )
-        queue.add(req)
-
+        syncr()
     }
 
-    override fun onResume() {
-        super.onResume()
-        LoadQuery("%")
-    }
 
     private fun LoadQuery(title: String) {
         val dbManager = DbManager(this)
@@ -130,37 +94,14 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         if (item != null) {
             when (item.itemId) {
+                R.id.addEmpresa -> {
+                    startActivity(Intent(this,AddEmpresa::class.java))
+                }
+                R.id.servicos -> {
+                    startActivity(Intent(this,ListaCategorias::class.java))
+                }
                 R.id.sync -> {
-                    var url = "http://192.168.202.98:8696/empresas"
-                    val queue1 = Volley.newRequestQueue(this)
-                    val req = JsonArrayRequest(
-                        Request.Method.GET, url, null,
-                        Response.Listener { response ->
-                            try {
-                                // Loop through the array elements
-                                for (i in 0 until response.length()) {
-                                    var values = ContentValues()
-                                    val aux = response.getJSONObject(i)
-                                    values.put("id", aux.getInt("id"))
-                                    values.put("nombre", aux.getString("nombre"))
-                                    values.put("direccion", aux.getString("direccion"))
-                                    values.put("telefono", aux.getString("telefono"))
-                                    values.put("correo", aux.getString("correo"))
-
-                                    var dbManager = DbManager(this)
-                                    dbManager.insertEmpresas(values)
-                                }
-                            } catch (e: JSONException) {
-                                e.printStackTrace()
-                            }
-                        },
-                        Response.ErrorListener { error: VolleyError ->
-                            println("Error $error.message")
-                        }
-                    )
-                    queue1.add(req)
-                    Toast.makeText(this, "Empresas borradas y sincronizado", Toast.LENGTH_SHORT).show()
-                    onResume()
+                    syncr()
                 }
                 R.id.action_settings -> {
                     Toast.makeText(this, "Configuraciones por añadir", Toast.LENGTH_SHORT).show()
@@ -183,9 +124,34 @@ class MainActivity : AppCompatActivity() {
             var myView = layoutInflater.inflate(R.layout.rowempresa, null)
             var myEmpresa = listEmpresaAdapter[position]
             myView.nombreEmpresaTv.text = myEmpresa.nombre
-            //Delete
             myView.details.setOnClickListener {
                 goToDetails(myEmpresa)
+            }
+            myView.deleteBtn.setOnClickListener {
+                var dbManager = DbManager(this.context!!)
+                val selectionArgs = arrayOf(myEmpresa.id.toString())
+                dbManager.deleteContratos("id=?", selectionArgs)
+                LoadQuery("%")
+
+                //Delete en base de datos
+                //Cambiar url cada vez
+                var url = "http://192.168.202.42:8696/empresas/getById/"+myEmpresa.id
+
+                val queue2 = Volley.newRequestQueue(context)
+                val req = JsonObjectRequest(
+                    Request.Method.DELETE, url, null,
+                    Response.Listener { response ->
+                        Toast.makeText(context, "Borrado Exitoso", Toast.LENGTH_SHORT).show()
+                    },
+                    Response.ErrorListener { error: VolleyError ->
+                        println("Error $error.message")
+                    }
+                )
+                queue2.add(req)
+                syncr()
+            }
+            myView.editBtn.setOnClickListener {
+                goToUpdateFun(myEmpresa)
             }
             return myView
         }
@@ -204,6 +170,58 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun syncr() {
+
+        LoadQuery("%")
+
+        //Toast.makeText(this, arrayContratos.toString(), Toast.LENGTH_SHORT).show()
+
+        var url = "http://192.168.202.42:8696/empresas"
+        val queue1 = Volley.newRequestQueue(this)
+        val req = JsonArrayRequest(
+            Request.Method.GET, url, null,
+            Response.Listener { response ->
+                try {
+                    if(response.length()!= empresasLv.count){
+                        var dbManager = DbManager(this)
+                        dbManager.deleteAllEmpresas()
+                        LoadQuery("%")
+                        //Borrar aqui
+                    }
+                    // Loop through the array elements
+                    for (i in 0 until response.length()) {
+                        var values = ContentValues()
+                        val aux = response.getJSONObject(i)
+                        values.put("id", aux.getInt("id"))
+                        values.put("nombre", aux.getString("nombre"))
+                        values.put("direccion", aux.getString("direccion"))
+                        values.put("telefono", aux.getString("telefono"))
+                        values.put("correo", aux.getString("correo"))
+
+                        var dbManager = DbManager(this)
+                        dbManager.insertEmpresas(values)
+                    }
+                } catch (e: JSONException) {
+                    e.printStackTrace()
+                }
+            },
+            Response.ErrorListener { error: VolleyError ->
+                println("Error $error.message")
+            }
+        )
+        queue1.add(req)
+        Toast.makeText(this, "Sincronizado", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun goToUpdateFun(aux: Empresa) {
+        var intent = Intent(this, AddEmpresa::class.java)
+        intent.putExtra("id", aux.id)
+        intent.putExtra("nombre", aux.nombre)
+        intent.putExtra("direccion", aux.direccion)
+        intent.putExtra("telefono", aux.tel)
+        intent.putExtra("correo", aux.correo)
+        startActivity(intent)
+    }
     private fun goToDetails(aux: Empresa) {
         var intent = Intent(this, ListaContratosEmpresa::class.java)
         intent.putExtra("id", aux.id)

@@ -33,6 +33,12 @@
         <activity
             android:name="com.loquat.jose.gestor_de_contratosv3.ListaContratosEmpresa"
             android:label="Detalles de la Empresa" />
+        <activity
+            android:name="com.loquat.jose.gestor_de_contratosv3.AddEmpresa"
+            android:label="Añadir Empresa..." />
+        <activity
+            android:name="com.loquat.jose.gestor_de_contratosv3.ListaCategorias"
+            android:label="Categorias de Servicios" />
     </application>
 
 </manifest>

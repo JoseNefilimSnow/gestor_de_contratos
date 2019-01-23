@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 17 17:24:10 GMT 2018
+#Wed Jan 23 18:36:30 GMT 2019
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex

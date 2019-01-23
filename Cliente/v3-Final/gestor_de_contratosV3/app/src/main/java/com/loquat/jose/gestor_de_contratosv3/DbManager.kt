@@ -13,7 +13,7 @@ class DbManager {
     /**
      * Aqui se define la base de datos SQLITE
      */
-    val dbName = "subcontrataSQLITE"
+    val dbName = "asesoriaSQLITE"
     //Tabla empresa
     val TABLE_EMPRESAS = "empresas"
     val COL_EMP_ID = "id"
@@ -177,6 +177,9 @@ class DbManager {
     fun deleteEmpresas(selection: String, selectionArgs: Array<String>): Int {
         val count = sqlDB!!.delete(TABLE_EMPRESAS, selection, selectionArgs)
         return count
+    }
+    fun deleteAllEmpresas(){
+        sqlDB!!.execSQL("delete from "+ TABLE_EMPRESAS);
     }
     fun deleteContratos(selection: String, selectionArgs: Array<String>): Int {
         val count = sqlDB!!.delete(TABLE_CONTRATOS, selection, selectionArgs)

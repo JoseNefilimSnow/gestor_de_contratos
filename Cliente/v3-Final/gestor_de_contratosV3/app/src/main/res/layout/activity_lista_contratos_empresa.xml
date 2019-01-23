@@ -26,15 +26,6 @@
             android:textSize="18sp"
     />
     <TextView
-            android:id="@+id/correoEmpresaDetailTv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
-            android:textColor="@color/black"
-            android:text="Correo Empresa"
-            android:textSize="18sp"
-    />
-    <TextView
             android:id="@+id/telefonoEmpresaDetailTv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,6 +34,16 @@
             android:text="Telefono Empresa"
             android:textSize="18sp"
     />
+    <TextView
+            android:id="@+id/correoEmpresaDetailTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            android:text="Correo Empresa"
+            android:textSize="18sp"
+    />
+
     <TextView
             android:id="@+id/contratosporEmpresaDetailTv"
             android:layout_width="match_parent"

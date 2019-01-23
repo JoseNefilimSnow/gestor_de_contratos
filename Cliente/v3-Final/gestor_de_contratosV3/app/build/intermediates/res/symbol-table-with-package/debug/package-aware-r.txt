@@ -652,6 +652,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_add
+drawable ic_close
 drawable ic_del
 drawable ic_edit
 drawable ic_launcher_background
@@ -674,6 +675,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id CategTv
 id FUNCTION
 id META
 id SHIFT
@@ -701,6 +703,7 @@ id activity_chooser_view_content
 id add
 id addBtn
 id addContrato
+id addEmpresa
 id alertTitle
 id all
 id always
@@ -711,9 +714,12 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id categoriasLv
 id center
 id center_horizontal
 id center_vertical
+id cerrar
+id cerrarTab
 id chains
 id checkbox
 id chronometer
@@ -726,6 +732,7 @@ id contratosLv
 id contratosTv
 id contratosporEmpresaDetailTv
 id correoEmpresaDetailTv
+id correoEt
 id custom
 id customPanel
 id decor_content_parent
@@ -733,6 +740,7 @@ id default_activity_button
 id deleteBtn
 id details
 id dimensions
+id dirEt
 id direccionEmpresaDetailTv
 id direct
 id disableHome
@@ -773,6 +781,7 @@ id multiply
 id never
 id nombreEmpresaDetailTv
 id nombreEmpresaTv
+id nombreEt
 id none
 id normal
 id notification_background
@@ -803,6 +812,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id servicos
 id shortcut
 id showCustom
 id showHome
@@ -823,6 +833,7 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id telEt
 id telefonoEmpresaDetailTv
 id text
 id text2
@@ -876,6 +887,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_contrato
+layout activity_add_empresa
+layout activity_lista_categorias
 layout activity_lista_contratos_empresa
 layout activity_main
 layout notification_action
@@ -1104,7 +1117,6 @@ style Base_Widget_AppCompat_Toolbar_Button_Navigation
 style CardView
 style CardView_Dark
 style CardView_Light
-style MyActionBar
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

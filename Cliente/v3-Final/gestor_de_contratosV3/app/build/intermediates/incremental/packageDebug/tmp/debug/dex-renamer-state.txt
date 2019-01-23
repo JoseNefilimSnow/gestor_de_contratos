@@ -1,4 +1,4 @@
-#Mon Dec 17 17:24:10 GMT 2018
+#Wed Jan 23 18:36:23 GMT 2019
 base.0=C\:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -52,12 +52,12 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\9f263865aab2418e2c6737d7ef3a7d23\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_close.png.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_close.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -88,20 +92,20 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
@@ -164,20 +168,20 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_vector_test.xml"
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -200,12 +204,12 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
@@ -236,16 +240,16 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -284,12 +288,12 @@
         "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_divider_material.xml.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -360,6 +364,10 @@
         "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\menu\\main_menu2.xml"
     },
     {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_close.png.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-xxhdpi\\ic_close.png"
+    },
+    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_item_background_holo_light.xml"
     },
@@ -374,6 +382,10 @@
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\9f263865aab2418e2c6737d7ef3a7d23\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_close.png.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-hdpi\\ic_close.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -396,12 +408,12 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -416,12 +428,12 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -492,12 +504,12 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -520,32 +532,36 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_edit.png.flat",
         "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_del.png.flat",
         "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-xhdpi\\ic_del.png"
     },
     {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lista_categorias.xml.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\layout\\activity_lista_categorias.xml"
+    },
+    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
@@ -830,6 +846,10 @@
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_empresa.xml.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\layout\\activity_add_empresa.xml"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -1572,6 +1592,10 @@
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_close.png.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-xhdpi\\ic_close.png"
+    },
+    {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -1654,6 +1678,10 @@
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\josex\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\52c1cd9bd0b33e16cd5701dbb24c0bc6\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close.png.flat",
+        "source": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\src\\main\\res\\drawable-mdpi\\ic_close.png"
     },
     {
         "merged": "C:\\Users\\josex\\AndroidStudioProjects\\gestor_de_contratosV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\52c1cd9bd0b33e16cd5701dbb24c0bc6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\a13d58bd31d63e53517b4a6ec248cf8c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e4740f65207be6d241fdb3c9b9aa8fa7\AndroidManifest.xml:2:1-11:12
@@ -33,22 +33,22 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\josex\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\17afded39140e9eddff1251ae27f81c0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a841263df1d7702b7d087e3ada4eae24\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9122d12a6060db7b098801169e3707a7\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:4:11-58
 		INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:3:11-57
 	android:versionCode
 		INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,7 +57,7 @@ ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\ma
 	android:name
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:8:5-32:19
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:8:5-35:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e4740f65207be6d241fdb3c9b9aa8fa7\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e4740f65207be6d241fdb3c9b9aa8fa7\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\d8255939c37a5683800932a8b18793c6\AndroidManifest.xml:9:5-20
@@ -69,47 +69,59 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\josex\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\josex\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\9f263865aab2418e2c6737d7ef3a7d23\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:14:13-39
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:13:13-39
 	android:label
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:11:13-45
 	tools:ignore
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:16:13-52
 	android:roundIcon
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:13:13-58
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:12:13-58
 	android:icon
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:10:13-53
 	android:allowBackup
 		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:9:13-39
 	android:theme
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:15:13-44
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:14:13-44
 	android:usesCleartextTraffic
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:12:13-48
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:15:13-48
 activity#com.loquat.jose.gestor_de_contratosv3.MainActivity
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:17:9-24:20
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:18:17-45
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:20:17-68
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:19:17-68
 	android:name
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:22:17-76
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:21:17-76
 	android:name
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.loquat.jose.gestor_de_contratosv3.AddContratoActivity
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:25:9-27:11
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:24:9-26:53
 	android:label
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:26:19-53
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:26:17-51
 	android:name
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:25:19-54
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:25:17-52
 activity#com.loquat.jose.gestor_de_contratosv3.ListaContratosEmpresa
-ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:29:9-31:11
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:27:9-29:57
 	android:label
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:30:19-57
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:29:17-55
 	android:name
-		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:29:19-56
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:28:17-54
+activity#com.loquat.jose.gestor_de_contratosv3.AddEmpresa
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:30:9-32:52
+	android:label
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:32:17-50
+	android:name
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:31:17-43
+activity#com.loquat.jose.gestor_de_contratosv3.ListaCategorias
+ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:33:9-34:60
+	android:label
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:34:19-58
+	android:name
+		ADDED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml:33:19-50
 uses-sdk
 INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\josex\AndroidStudioProjects\gestor_de_contratosV3\app\src\main\AndroidManifest.xml
